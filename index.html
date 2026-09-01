@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAREE — Premium Collection</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="SAREE Premium Collection"><img id="brandLogo" src="/assets/logo-default.jpg" alt="SAREE Premium Collection"></a>
+  <div class="searchBox"><input id="search" placeholder="Search for sarees..." oninput="loadProducts()"><button aria-label="Search" onclick="loadProducts()">⌕</button></div>
+  <div class="headerActions">
+    <button type="button"><span class="ico">♧</span><span>Support</span></button>
+    <button type="button" onclick="document.getElementById('agents').scrollIntoView({behavior:'smooth'})"><span class="ico">♙</span><span>Account</span></button>
+    <button type="button" class="cartBtn" onclick="openCart()"><span class="ico">🛒</span><span>Cart</span><b id="count">0</b></button>
+  </div>
+</header>
+<nav class="mainNav">
+  <a class="active" href="#">HOME</a><a href="#shop">SHOP</a><a href="#shop">COLLECTIONS⌄</a><a href="#shop">NEW ARRIVALS</a><a href="#shop">PREMIUM</a><a href="#track">OFFERS</a><a href="#agents">CONTACT</a>
+</nav>
+
+<section class="hero">
+  <div class="heroCopy">
+    <div class="ornament">✦</div>
+    <h1>PREMIUM SAREE<br><span>COLLECTION</span></h1>
+    <p id="tagline">Discover the elegance of tradition with our premium quality sarees.</p>
+    <button class="gold" onclick="location.hash='shop'">SHOP NOW <span>→</span></button>
+  </div>
+  <div class="heroVisual"><img src="/assets/hero-model.jpg" alt="Premium black and gold saree collection"></div>
+</section>
+
+<section class="benefits">
+  <div><strong>♕</strong><b>Premium Quality<small>100% Premium<br>Quality Assured</small></b></div>
+  <div><strong>♢</strong><b>Secure Payment<small>100% Secure<br>Payment</small></b></div>
+  <div><strong>▱</strong><b>Fast Delivery<small>Within 2-5<br>Working Days</small></b></div>
+  <div><strong>⟳</strong><b>Easy Return<small>7 Days Easy<br>Return Policy</small></b></div>
+  <div><strong>♧</strong><b>Customer Support<small>24/7 Dedicated<br>Support</small></b></div>
+</section>
+
+<section id="shop" class="collection">
+  <div class="sectionTitle"><div><div class="titleRule">⌁</div><h2>FEATURED COLLECTION</h2><p>Handpicked premium sarees for you</p></div><button class="outline" onclick="document.getElementById('search').focus()">VIEW ALL →</button></div>
+  <div id="products" class="grid"></div>
+</section>
+
+<section class="trustStrip"><div><b>10K+</b><span>Happy Customers</span></div><div><b>4.9/5</b><span>Customer Rating</span></div><div><b>100%</b><span>Quality Assurance</span></div><div><b>24/7</b><span>Customer Support</span></div></section>
+
+<section class="serviceGrid">
+  <div class="offer"><small>SPECIAL OFFER</small><h2>Flat 15% Off</h2><p>On All Premium Sarees</p><button class="gold" onclick="location.hash='shop'">SHOP NOW</button></div>
+  <div id="track" class="tracking"><small>ORDER TRACKING</small><h3>Track Your Order</h3><div class="track"><input id="trackCode" placeholder="Enter your Order ID (SAR-000001)"><button class="gold" onclick="trackOrder()">TRACK ORDER</button></div><div id="trackResult"></div><div class="payments"><span>WE ACCEPT</span><b>bKash</b><b>Nagad</b><b>ROCKET</b><b>Cash on Delivery</b></div></div>
+</section>
+
+<section id="agents" class="agentsSection"><small>PERSONAL ASSISTANCE</small><h2>Talk to an Agent</h2><div id="agentsList" class="agents"></div></section>
+
+<div id="checkoutModal" class="checkoutModal"><div class="checkoutCard"><button class="closeCheckout" onclick="closeCheckout()">×</button><h2>Secure Checkout</h2><div id="checkoutItems"></div><input id="customerName" placeholder="Full name"><input id="customerPhone" placeholder="Phone number"><textarea id="customerAddress" rows="4" placeholder="Delivery address"></textarea><select id="paymentMethod"></select><div id="paymentInfo" class="payInfo"></div><input id="transactionId" placeholder="Transaction ID (required for online payment)"><button class="gold wide" onclick="placeOrder()">PLACE ORDER →</button><div id="checkoutMessage"></div></div></div>
+
+<aside id="cart" class="drawer"><button class="close" onclick="closeCart()">×</button><div class="drawerBrand">SAREE</div><h2>Your Cart</h2><div id="cartItems"></div><div class="total"><span>Total</span><b id="cartTotal">৳0</b></div><button class="gold wide" onclick="checkout()">CHECKOUT →</button></aside>
+
+<div id="chat" class="chat"><div class="chatHead"><div><b>SAREE AI</b><small>Shopping Assistant</small></div><button onclick="toggleChat()">×</button></div><div id="msgs"></div><div class="quick"><button id="qDelivery" onclick="quick('delivery')">Delivery Time</button><button id="qStore" onclick="quick('store')">Store Info</button><button id="qOrder" onclick="quick('order')">Order Now</button></div><div class="imageMatch"><input id="customerImage" type="file" accept="image/png,image/jpeg,image/webp"><button onclick="matchImage()">MATCH</button></div><div class="chatInput"><input id="chatText" placeholder="Ask about products or order..." onkeydown="if(event.key==='Enter')sendChat()"><button onclick="sendChat()">➤</button></div></div><button class="chatFab" onclick="toggleChat()">✦</button>
+<script src="/app.js"></script>
+</body></html>
