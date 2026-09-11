@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "name": "Made by Nexora WEB",
+    "tagline": "Premium All-in-One Commerce Experience",
+    "whatsapp": "01753519603",
+    "email": "hello@nexoraweb.com",
+    "address": "Bangladesh",
+    "announcement": "Premium shopping • Fast delivery • Secure checkout • Humanized AI assistant",
+    "heroTitle": "Everything You Need. One Premium Store.",
+    "heroText": "A polished all-in-one storefront for fashion, electronics, beauty, lifestyle, home, sports, kids, services and more.",
+    "currency": "৳",
+    "deliveryText": "Fast Bangladesh delivery",
+    "cod": true,
+    "bkash": true,
+    "nagad": true,
+    "rocket": true,
+    "about": "Made by Nexora WEB is a universal premium commerce template built to showcase almost any business with a consistent luxury interface and a powerful admin system.",
+    "social": {"facebook":"#","instagram":"#","tiktok":"#","youtube":"#"}
+  },
+  "categories": [
+    {"id":"fashion","name":"Fashion & Clothing","icon":"◈","tone":"wine"},
+    {"id":"electronics","name":"Electronics & Gadgets","icon":"⌁","tone":"blue"},
+    {"id":"beauty","name":"Beauty & Skincare","icon":"✦","tone":"rose"},
+    {"id":"home","name":"Home & Living","icon":"⌂","tone":"sand"},
+    {"id":"grocery","name":"Grocery & Food","icon":"✣","tone":"green"},
+    {"id":"jewelry","name":"Jewelry & Watches","icon":"◇","tone":"gold"},
+    {"id":"shoes","name":"Shoes & Bags","icon":"◫","tone":"brown"},
+    {"id":"sports","name":"Sports & Fitness","icon":"◎","tone":"orange"},
+    {"id":"kids","name":"Kids & Baby","icon":"♡","tone":"pink"},
+    {"id":"books","name":"Books & Stationery","icon":"▤","tone":"purple"},
+    {"id":"automotive","name":"Automotive","icon":"◉","tone":"slate"},
+    {"id":"health","name":"Health & Wellness","icon":"+","tone":"teal"},
+    {"id":"pets","name":"Pet Supplies","icon":"♧","tone":"lime"},
+    {"id":"services","name":"Services & Professional","icon":"◆","tone":"indigo"},
+    {"id":"digital","name":"Digital Products","icon":"⌘","tone":"cyan"},
+    {"id":"other","name":"Other / Custom Business","icon":"＋","tone":"black"}
+  ],
+  "products": [
+    {"id":"p1","name":"Signature Premium Shirt","category":"fashion","price":2490,"oldPrice":2990,"color":"Navy","sizes":["S","M","L","XL","XXL"],"stock":18,"badge":"BEST","description":"Premium everyday shirt with a refined modern fit."},
+    {"id":"p2","name":"Pro Wireless Earbuds","category":"electronics","price":3290,"oldPrice":3890,"color":"Black","sizes":[],"stock":24,"badge":"NEW","description":"Compact wireless earbuds with a premium everyday finish."},
+    {"id":"p3","name":"Glow Skin Care Set","category":"beauty","price":1890,"oldPrice":2290,"color":"Rose","sizes":[],"stock":31,"badge":"HOT","description":"A complete glow-focused skincare routine set."},
+    {"id":"p4","name":"Minimal Home Lamp","category":"home","price":1590,"oldPrice":1990,"color":"Ivory","sizes":[],"stock":16,"badge":"NEW","description":"Warm ambient lighting for a calm modern interior."},
+    {"id":"p5","name":"Premium Coffee Collection","category":"grocery","price":990,"oldPrice":1190,"color":"Classic","sizes":[],"stock":40,"badge":"","description":"A curated coffee selection for everyday brewing."},
+    {"id":"p6","name":"Classic Gold Watch","category":"jewelry","price":6490,"oldPrice":7490,"color":"Gold","sizes":[],"stock":7,"badge":"LUXE","description":"Elegant statement watch with a timeless gold finish."},
+    {"id":"p7","name":"Urban Leather Bag","category":"shoes","price":3890,"oldPrice":4490,"color":"Brown","sizes":[],"stock":12,"badge":"BEST","description":"Structured premium bag designed for daily use."},
+    {"id":"p8","name":"Performance Training Set","category":"sports","price":2290,"oldPrice":2790,"color":"Black","sizes":["S","M","L","XL"],"stock":20,"badge":"FIT","description":"Comfortable activewear for training and movement."},
+    {"id":"p9","name":"Little Star Baby Set","category":"kids","price":1290,"oldPrice":1590,"color":"Pink","sizes":["2Y","4Y","6Y"],"stock":14,"badge":"CUTE","description":"Soft and comfortable kidswear set."},
+    {"id":"p10","name":"Premium Notebook Set","category":"books","price":690,"oldPrice":850,"color":"Black","sizes":[],"stock":45,"badge":"","description":"Minimal notebook set for work, study and planning."},
+    {"id":"p11","name":"Auto Care Essentials","category":"automotive","price":1490,"oldPrice":1790,"color":"Black","sizes":[],"stock":25,"badge":"","description":"Useful everyday vehicle care essentials."},
+    {"id":"p12","name":"Wellness Starter Kit","category":"health","price":1790,"oldPrice":2090,"color":"Teal","sizes":[],"stock":19,"badge":"NEW","description":"Everyday wellness essentials in one curated kit."},
+    {"id":"p13","name":"Pet Comfort Bundle","category":"pets","price":1190,"oldPrice":1490,"color":"Green","sizes":[],"stock":22,"badge":"","description":"Comfort and care essentials for your pet."},
+    {"id":"p14","name":"Business Starter Service","category":"services","price":4990,"oldPrice":5990,"color":"Premium","sizes":[],"stock":999,"badge":"SERVICE","description":"A flexible starter service package for small businesses."},
+    {"id":"p15","name":"Digital Creator Pack","category":"digital","price":990,"oldPrice":1290,"color":"Cyan","sizes":[],"stock":999,"badge":"DIGITAL","description":"A ready-to-use digital resource pack for creators."},
+    {"id":"p16","name":"Custom Business Product","category":"other","price":1990,"oldPrice":2490,"color":"Custom","sizes":[],"stock":30,"badge":"","description":"Flexible placeholder product for any custom business."}
+  ],
+  "reviews": [
+    {"id":"r1","name":"Ayesha Rahman","rating":5,"text":"Very clean shopping experience. The assistant helped me choose quickly."},
+    {"id":"r2","name":"Tanvir Hasan","rating":5,"text":"The product flow feels premium and checkout was simple."},
+    {"id":"r3","name":"Nusrat Jahan","rating":5,"text":"Loved how easily I could search by budget and category."},
+    {"id":"r4","name":"Sakib Ahmed","rating":4,"text":"Fast, modern and much easier to browse on mobile."},
+    {"id":"r5","name":"Mim Akter","rating":5,"text":"The chat assistant feels natural and actually helps with shopping."}
+  ],
+  "faqs": [
+    {"id":"f1","q":"How can I order?","a":"Use Order Now, Add to Cart, or ask the shopping assistant to place the order conversationally."},
+    {"id":"f2","q":"Do you support Cash on Delivery?","a":"Yes, if enabled by the admin. Online payment options can also be configured."},
+    {"id":"f3","q":"Can the admin change products?","a":"Yes. Products, prices, stock, categories, reviews, FAQ and store settings are managed from the admin panel."},
+    {"id":"f4","q":"Can the assistant understand Bangla?","a":"Yes. The local assistant understands Bangla, English and Banglish shopping phrases."}
+  ],
+  "orders": [],
+  "auth": {}
+}
