@@ -5,7 +5,7 @@ const crypto=require('crypto');
 const {URL}=require('url');
 
 const ROOT=__dirname;
-const PUBLIC=path.join(ROOT,'public');
+const PUBLIC=path.join(ROOT,'assets');
 const DATA=path.join(ROOT,'data.json');
 const PORT=Number(process.env.PORT||10000);
 const ADMIN_PASSWORD=process.env.ADMIN_PASSWORD||'nexora-admin-123';
