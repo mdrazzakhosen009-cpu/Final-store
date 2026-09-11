@@ -1,0 +1,398 @@
+{
+  "settings": {
+    "name": "Made by Nexora WEB",
+    "tagline": "Premium products • Better choices • Fast delivery",
+    "whatsapp": "01753519603",
+    "email": "hello@nexoraweb.com",
+    "address": "Bangladesh",
+    "announcement": "Premium shopping • Best prices • Fast delivery • Human support",
+    "heroTitle": "Your One Stop Shopping Destination",
+    "heroText": "Discover premium products across 16+ categories, shop smarter, compare options and order with confidence.",
+    "currency": "৳",
+    "deliveryText": "Fast Bangladesh delivery",
+    "cod": true,
+    "bkash": true,
+    "nagad": true,
+    "rocket": true,
+    "about": "Made by Nexora WEB is a universal premium commerce template built to showcase almost any business with a consistent luxury interface and a powerful admin system.",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "tiktok": "#",
+      "youtube": "#"
+    }
+  },
+  "categories": [
+    {
+      "id": "fashion",
+      "name": "Fashion & Clothing",
+      "icon": "◈",
+      "tone": "wine"
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics & Gadgets",
+      "icon": "⌁",
+      "tone": "blue"
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty & Skincare",
+      "icon": "✦",
+      "tone": "rose"
+    },
+    {
+      "id": "home",
+      "name": "Home & Living",
+      "icon": "⌂",
+      "tone": "sand"
+    },
+    {
+      "id": "grocery",
+      "name": "Grocery & Food",
+      "icon": "✣",
+      "tone": "green"
+    },
+    {
+      "id": "jewelry",
+      "name": "Jewelry & Watches",
+      "icon": "◇",
+      "tone": "gold"
+    },
+    {
+      "id": "shoes",
+      "name": "Shoes & Bags",
+      "icon": "◫",
+      "tone": "brown"
+    },
+    {
+      "id": "sports",
+      "name": "Sports & Fitness",
+      "icon": "◎",
+      "tone": "orange"
+    },
+    {
+      "id": "kids",
+      "name": "Kids & Baby",
+      "icon": "♡",
+      "tone": "pink"
+    },
+    {
+      "id": "books",
+      "name": "Books & Stationery",
+      "icon": "▤",
+      "tone": "purple"
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive",
+      "icon": "◉",
+      "tone": "slate"
+    },
+    {
+      "id": "health",
+      "name": "Health & Wellness",
+      "icon": "+",
+      "tone": "teal"
+    },
+    {
+      "id": "pets",
+      "name": "Pet Supplies",
+      "icon": "♧",
+      "tone": "lime"
+    },
+    {
+      "id": "services",
+      "name": "Services & Professional",
+      "icon": "◆",
+      "tone": "indigo"
+    },
+    {
+      "id": "digital",
+      "name": "Digital Products",
+      "icon": "⌘",
+      "tone": "cyan"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom Business",
+      "icon": "＋",
+      "tone": "black"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Signature Noir Overshirt",
+      "category": "fashion",
+      "price": 2490,
+      "oldPrice": 2990,
+      "color": "Black",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 18,
+      "badge": "BEST",
+      "description": "A structured premium overshirt with a clean silhouette and soft brushed finish.",
+      "image": "/assets/jacket.jpg"
+    },
+    {
+      "id": "p2",
+      "name": "Noir Pro Wireless Earbuds",
+      "category": "electronics",
+      "price": 3290,
+      "oldPrice": 3890,
+      "color": "Black",
+      "sizes": [],
+      "stock": 24,
+      "badge": "NEW",
+      "description": "Low-profile wireless earbuds with deep sound, compact charging case and all-day comfort.",
+      "image": "/assets/earbuds.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "Radiant Vitamin C Serum",
+      "category": "beauty",
+      "price": 1890,
+      "oldPrice": 2290,
+      "color": "Amber",
+      "sizes": [],
+      "stock": 31,
+      "badge": "HOT",
+      "description": "A refined daily skincare serum with vitamin C and hyaluronic-acid inspired positioning.",
+      "image": "/assets/serum.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Sculpted Ceramic Table Lamp",
+      "category": "home",
+      "price": 4490,
+      "oldPrice": 5290,
+      "color": "Ivory",
+      "sizes": [],
+      "stock": 16,
+      "badge": "NEW",
+      "description": "Warm ambient lighting in a sculptural ceramic form designed for modern interiors.",
+      "image": "/assets/lamp.jpg"
+    },
+    {
+      "id": "p5",
+      "name": "Signature Dark Chocolate Box",
+      "category": "grocery",
+      "price": 1490,
+      "oldPrice": 1790,
+      "color": "Dark",
+      "sizes": [],
+      "stock": 40,
+      "badge": "FEATURED",
+      "description": "A premium assorted chocolate collection presented in an elegant gift box.",
+      "image": "/assets/chocolate.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Aurum Classic Watch",
+      "category": "jewelry",
+      "price": 6990,
+      "oldPrice": 7990,
+      "color": "Gold",
+      "sizes": [],
+      "stock": 7,
+      "badge": "LUXE",
+      "description": "Minimal gold-tone wristwatch with a refined black dial and polished bracelet.",
+      "image": "/assets/watch.jpg"
+    },
+    {
+      "id": "p7",
+      "name": "Noir Structured Handbag",
+      "category": "shoes",
+      "price": 5790,
+      "oldPrice": 6490,
+      "color": "Black",
+      "sizes": [],
+      "stock": 12,
+      "badge": "BEST",
+      "description": "Structured everyday handbag with polished hardware and a clean luxury profile.",
+      "image": "/assets/handbag.jpg"
+    },
+    {
+      "id": "p8",
+      "name": "Velocity Performance Sneaker",
+      "category": "sports",
+      "price": 3990,
+      "oldPrice": 4590,
+      "color": "Black",
+      "sizes": [],
+      "stock": 20,
+      "badge": "FIT",
+      "description": "Lightweight training sneaker built for gym sessions, walking and everyday movement.",
+      "image": "/assets/sneaker.jpg"
+    },
+    {
+      "id": "p9",
+      "name": "Little Atelier Baby Romper",
+      "category": "kids",
+      "price": 1290,
+      "oldPrice": 1590,
+      "color": "Cream",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "stock": 14,
+      "badge": "CUTE",
+      "description": "Soft cotton baby romper with a timeless neutral finish.",
+      "image": "/assets/baby.jpg"
+    },
+    {
+      "id": "p10",
+      "name": "Executive Leather Notebook",
+      "category": "books",
+      "price": 890,
+      "oldPrice": 1090,
+      "color": "Black",
+      "sizes": [],
+      "stock": 45,
+      "badge": "FEATURED",
+      "description": "Premium notebook and pen set for work, planning and thoughtful gifting.",
+      "image": "/assets/notebook.jpg"
+    },
+    {
+      "id": "p11",
+      "name": "Executive Car Key Kit",
+      "category": "automotive",
+      "price": 1690,
+      "oldPrice": 1990,
+      "color": "Black",
+      "sizes": [],
+      "stock": 25,
+      "badge": "FEATURED",
+      "description": "Compact car key accessory set with leather key cover and premium metal ring.",
+      "image": "/assets/carkeys.jpg"
+    },
+    {
+      "id": "p12",
+      "name": "Daily Wellness Bottle",
+      "category": "health",
+      "price": 990,
+      "oldPrice": 1290,
+      "color": "Smoke",
+      "sizes": [],
+      "stock": 19,
+      "badge": "NEW",
+      "description": "Reusable insulated bottle with a clean silhouette for daily hydration.",
+      "image": "/assets/bottle.jpg"
+    },
+    {
+      "id": "p13",
+      "name": "Noir Leather Pet Set",
+      "category": "pets",
+      "price": 1390,
+      "oldPrice": 1690,
+      "color": "Black",
+      "sizes": [],
+      "stock": 22,
+      "badge": "FEATURED",
+      "description": "Comfort-focused collar and leash set with polished metal hardware.",
+      "image": "/assets/petcollar.jpg"
+    },
+    {
+      "id": "p14",
+      "name": "Creator Desk Keyboard",
+      "category": "services",
+      "price": 2890,
+      "oldPrice": 3290,
+      "color": "Black",
+      "sizes": [],
+      "stock": 999,
+      "badge": "SERVICE",
+      "description": "A compact wireless keyboard designed for clean creator and office setups.",
+      "image": "/assets/keyboard.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Noir Eau de Parfum",
+      "category": "digital",
+      "price": 3490,
+      "oldPrice": 3990,
+      "color": "Black",
+      "sizes": [],
+      "stock": 999,
+      "badge": "DIGITAL",
+      "description": "A deep, elegant fragrance presentation with warm woody notes and a premium finish.",
+      "image": "/assets/perfume.jpg"
+    },
+    {
+      "id": "p16",
+      "name": "Avenue Classic Sunglasses",
+      "category": "other",
+      "price": 2290,
+      "oldPrice": 2690,
+      "color": "Black",
+      "sizes": [],
+      "stock": 30,
+      "badge": "FEATURED",
+      "description": "Timeless black sunglasses with a clean luxury frame for everyday styling.",
+      "image": "/assets/sunglasses.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "name": "Ayesha Rahman",
+      "rating": 5,
+      "text": "Very clean shopping experience. The assistant helped me choose quickly."
+    },
+    {
+      "id": "r2",
+      "name": "Tanvir Hasan",
+      "rating": 5,
+      "text": "The product flow feels premium and checkout was simple."
+    },
+    {
+      "id": "r3",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Loved how easily I could search by budget and category."
+    },
+    {
+      "id": "r4",
+      "name": "Sakib Ahmed",
+      "rating": 4,
+      "text": "Fast, modern and much easier to browse on mobile."
+    },
+    {
+      "id": "r5",
+      "name": "Mim Akter",
+      "rating": 5,
+      "text": "The chat assistant feels natural and actually helps with shopping."
+    }
+  ],
+  "faqs": [
+    {
+      "id": "f1",
+      "q": "How can I order?",
+      "a": "Use Order Now, Add to Cart, or ask the shopping assistant to place the order conversationally."
+    },
+    {
+      "id": "f2",
+      "q": "Do you support Cash on Delivery?",
+      "a": "Yes, if enabled by the admin. Online payment options can also be configured."
+    },
+    {
+      "id": "f3",
+      "q": "Can the admin change products?",
+      "a": "Yes. Products, prices, stock, categories, reviews, FAQ and store settings are managed from the admin panel."
+    },
+    {
+      "id": "f4",
+      "q": "Can the assistant understand Bangla?",
+      "a": "Yes. The local assistant understands Bangla, English and Banglish shopping phrases."
+    }
+  ],
+  "orders": [],
+  "auth": {}
+}
