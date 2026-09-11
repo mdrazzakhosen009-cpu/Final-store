@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#fffaf8">
+<title>Made by Nexora WEB</title>
+<meta id="desc" name="description" content="Premium women's three-piece collection from Made by Nexora WEB.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div id="announcement" class="announcement"></div>
+<header class="header">
+  <div class="wrap nav">
+    <button class="hamb" id="menuBtn" aria-label="Open menu">☰</button>
+    <a class="brand" href="#home"><img id="brandLogo" alt="Made by Nexora WEB"><span><strong>Made by Nexora WEB</strong><small>Women’s Three-Piece Collection</small></span></a>
+    <nav id="nav"><a class="active" href="#home">Home</a><a href="#shop">Shop</a><a href="#categories">Categories⌄</a><a href="#about">About Us</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav>
+    <div class="actions">
+      <div class="search"><input id="search" placeholder="Search for products..."><button id="searchBtn" aria-label="Search">⌕</button></div>
+      
+      <button class="iconRound" aria-label="Wishlist">♡</button>
+      <button class="iconRound cartIcon" id="cartBtn" aria-label="Cart">🛒<b id="cartCount">0</b></button>
+      <a id="headerWa" class="wa" target="_blank" rel="noopener"><span class="waIcon">✆</span> 01753519603</a>
+    </div>
+  </div>
+</header>
+<div id="drawer" class="drawer">
+  <div class="drawerHead"><a class="brand"><img id="drawerLogo"><span><strong>Made by Nexora WEB</strong><small>Women’s Three-Piece</small></span></a><button id="drawerClose">×</button></div>
+  <div class="drawerSearch"><input id="drawerSearchInput" placeholder="Search for products..."><button onclick="document.querySelector('#searchBtn').click()">⌕</button></div>
+  <div class="drawerLinks"><a href="#home">⌂ <span>Home</span></a><a href="#shop">▦ <span>Shop</span><b>›</b></a><a href="#categories">◉ <span>Categories</span><b>›</b></a><a href="#about">♙ <span>About Us</span><b>›</b></a><a href="#reviews">★ <span>Reviews</span><b>›</b></a><a href="#contact">▢ <span>Contact</span><b>›</b></a></div>
+  <div class="drawerDivider"></div><h4>Shop by Category</h4><div id="drawerCats" class="catRow compact"></div>
+  <div class="drawerOffer"><img src="/assets/promo.jpg" alt="Special offer"><div><b>Flat 20% OFF</b><small>On All Three-Piece</small><a href="#shop">Shop Now →</a></div></div>
+  <a class="drawerWa" id="drawerWa" target="_blank" rel="noopener"><span class="waIcon">✆</span> 01753519603</a>
+  <div class="drawerSocial"><a id="drawerFb">f</a><a id="drawerIg">◎</a><a id="drawerTt">♪</a><a id="drawerYt">▶</a></div>
+</div>
+<div id="backdrop"></div>
+<main>
+<section id="home" class="hero"><img id="heroImg" alt="Made by Nexora WEB premium fashion"><button class="heroPrev" aria-label="Previous">‹</button><button class="heroNext" aria-label="Next">›</button><a id="heroBtn" class="heroCta" href="#shop">Shop Now →</a><div class="heroDots"><i class="on"></i><i></i><i></i><i></i></div></section>
+<section id="categories" class="section wrap categoriesSection">
+  <div class="sectionTop"><div><span class="eyebrow">— SHOP BY CATEGORY</span><h2>Our Categories</h2></div><a href="#shop">View All Categories →</a></div>
+  <div id="categoriesGrid" class="catRow"></div>
+</section>
+<section id="shop" class="section wrap shopSection">
+  <div class="shopLayout">
+    <div class="shopMain">
+      <div class="sectionTop"><div><span class="eyebrow">— TRENDING NOW</span><h2>Featured Collection</h2></div><div class="filters"><button data-filter="all" class="active">Best Seller</button><button data-filter="new">New Arrivals</button><button data-filter="sale">Top Rated</button></div></div>
+      <div id="productGrid" class="shopGrid"></div>
+    </div>
+    <aside class="shopRail">
+      <div class="offerCard"><img src="/assets/promo.jpg" alt="Special offer"><div class="offerOverlay"><span>Special Offer</span><strong>20% OFF</strong><small>On Your First Order</small><a href="#shop">Shop Now →</a></div></div>
+      <div class="benefits">
+        <div><span>♡</span><div><b>Premium Quality</b><small>100% Original Product</small></div></div>
+        <div><span>◷</span><div><b>Fast Delivery</b><small>All Over Bangladesh</small></div></div>
+        <div><span>▣</span><div><b>Secure Payment</b><small>Bkash, Nagad, Rocket & COD</small></div></div>
+        <div><span>◉</span><div><b>24/7 Support</b><small>Always Here For You</small></div></div>
+      </div>
+    </aside>
+  </div>
+</section>
+<section id="promo" class="promo wrap"><img id="promoImg" src="/assets/about.jpg" alt="Luxury collection"><div><span>Traditional Design &nbsp; | &nbsp; Premium Fabric &nbsp; | &nbsp; Unmatched Comfort</span><h2>Luxury Three Piece Collection</h2><p>Elegant looks made for your signature style.</p><a class="lightBtn" href="#shop">Shop Now →</a></div></section>
+<section id="reviews" class="section wrap reviewsSection"><div class="sectionTop"><div><span class="eyebrow">— OUR CUSTOMERS</span><h2>What Our Customers Say</h2></div><a href="#reviews">View All Reviews →</a></div><div class="reviewPhone"><div class="phoneSpeaker"></div><div class="phoneScreen"><div class="phoneStatus"><span>9:41</span><span>● ● ▰</span></div><div class="phoneTop"><span>Made by Nexora WEB</span><b>Reviews</b></div><div class="reviewViewport"><div id="reviewsTrack" class="reviewTrack"></div></div><div class="phoneBottom"><span>⌂</span><span>♡</span><span>◎</span><span>🛒</span></div></div></div></section>
+<section id="about" class="section wrap aboutSection"><div class="aboutGrid"><div class="aboutCopy"><span class="eyebrow">— THE Made by Nexora WEB STORY</span><h2>Designed for confidence. Made to stay.</h2><p id="aboutText">Made by Nexora WEB brings refined clothing, premium fabrics and timeless silhouettes together for people who want style that lasts.</p><a class="primary aboutBtn" href="#shop">Explore Collection →</a></div><div class="aboutImage"><img id="aboutImg" src="/assets/about.jpg" alt="Made by Nexora WEB collection"></div></div></section>
+</main>
+<footer id="contact"><div class="wrap footerMain"><div class="footerBrand"><a class="brand"><img id="footerLogo"><span><strong>Made by Nexora WEB</strong><small>Women’s Three-Piece Collection</small></span></a><p>Premium women’s three-piece fashion, curated for modern elegance.</p></div><div><h4>Quick Links</h4><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#about">About Us</a><a href="#reviews">Reviews</a></div><div><h4>Contact</h4><p id="phone"></p><p id="email"></p><p id="address"></p></div><div><h4>Follow Us</h4><div class="social"><a id="fb">f</a><a id="ig">◎</a><a id="tt">♪</a><a id="waFoot">◉</a></div></div></div><div class="copyright wrap">© 2026 Made by Nexora WEB. All rights reserved. <span>Made by <b>Nexora WEB</b></span></div></footer>
+<button id="assistantFab" class="assistantFab" aria-label="Shopping assistant">💬</button>
+<div id="assistant" class="assistant"><div class="assistantHead"><div><b>Nexora AI • Made by Nexora WEB</b><small>ChatGPT shopping assistant • বাংলা / English / Banglish</small></div><button id="assistantClose">×</button></div><div id="chat" class="chat"></div><div class="chatInput"><input id="chatInput" placeholder="Ask anything about products, size, color..."><button id="chatSend">➤</button></div></div>
+<div id="modalRoot"></div><div id="toast" class="toast"></div>
+<script src="/app.js"></script>
+</body></html>
