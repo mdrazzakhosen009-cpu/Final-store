@@ -1,0 +1,7 @@
+{
+  "name":"made-by-nexora-web-all-in-one",
+  "version":"2.0.0",
+  "private":true,
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=18"}
+}
